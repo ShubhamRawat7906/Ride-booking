@@ -1,4 +1,4 @@
-import {BrowserRouter,Routes,Route} from "react-router-dom"
+import {HashRouter,Routes,Route} from "react-router-dom"
 import './App.css'
 import Navbar from './components/navbar'
 import Home from './pages/Home'
@@ -12,7 +12,7 @@ return (
   <div>
     <h1>Let's Ride</h1>
     <img src={bike} alt="Bike" width="100" height="100"/>
-    <BrowserRouter>
+    <HashRouter>
     <Navbar/>
     <Routes>
       <Route path="/" element={<Home/>}/>
@@ -21,7 +21,7 @@ return (
       <Route path="/career" element={<Career/>}/>
       <Route path="/contact" element={<Contact/>}/>
     </Routes>
-    </BrowserRouter>
+    </HashRouter>
   </div>
 )
 }
