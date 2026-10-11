@@ -1,6 +1,6 @@
 import {HashRouter,Routes,Route} from "react-router-dom"
 import './App.css'
-import Navbar from './components/Navbar'
+import Navbar from './components/navbar'
 import Home from './pages/Home'
 import About from './pages/About'
 import Career from './pages/Career'
