@@ -1,4 +1,5 @@
 import {useState} from "react";
+import './Career.css';
 export default function Career(){
     // set up state variable for form fields
     const [name,setName]=useState("");

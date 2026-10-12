@@ -1,0 +1,50 @@
+.career-form {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 32px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.career-form h1 {
+  margin: 0 0 24px;
+  font-size: 2rem;
+}
+
+.form-group,
+.input-group {
+  display: flex;
+  flex-direction: column;   /* label above input */
+  gap: 6px;
+  margin-bottom: 18px;
+}
+
+.career-form label {
+  font-weight: 600;
+}
+
+.career-form input[type="text"],
+.career-form input[type="email"],
+.career-form input[type="tel"],
+.career-form select {
+  width: 100%;
+  height: 46px;
+  padding: 0 14px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.career-form button {
+  width: 100%;
+  height: 50px;
+  font-size: 18px;
+  font-weight: 700;
+  background: #fdc800;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
