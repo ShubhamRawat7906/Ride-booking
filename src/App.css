@@ -1,157 +1,24 @@
-.login-page {
-	box-sizing: border-box;
-	min-height: 60vh;
-	padding: 52px 24px 72px;
-	background-color: #f1f5ef;
-	background-image: repeating-linear-gradient(
-		135deg,
-		transparent 0,
-		transparent 18px,
-		rgba(28, 66, 52, 0.025) 18px,
-		rgba(28, 66, 52, 0.025) 19px
-	);
-	color: #1b2c26;
-	font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+*{
+	box-sizing:border-box;
+	margin:5px;
+
 }
-
-.login-container {
-	display: grid;
-	grid-template-columns: 0.9fr 1.1fr;
-	width: min(880px, 100%);
-	min-height: 420px;
-	margin: 0 auto;
-	overflow: hidden;
-	border: 1px solid #d8e1d8;
-	border-radius: 8px;
-	background: #fff;
-	box-shadow: 0 18px 48px rgba(28, 50, 39, 0.1);
+body{
+	font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+	background-color:honeydew;
+	line-height:1.6;
 }
-
-.login-intro {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	padding: 56px 48px;
-	background-color: #174b3b;
-	background-image: linear-gradient(155deg, #1b5944, #123b31 78%);
-	color: #fff;
+.app-header{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
 }
-
-.login-kicker {
-	margin-bottom: 26px;
-	color: #b5dc82;
-	font-size: 12px;
-	font-weight: 700;
-	letter-spacing: 1.5px;
+.app-header h1{
+	color:black;
+	font-size:2.5rem;
+	font-weight:bold;
 }
-
-.login-intro h1 {
-	max-width: 340px;
-	margin: 0;
-	font-size: 38px;
-	line-height: 1.12;
-}
-
-.login-intro p {
-	margin: 16px 0 0;
-	color: #d3e2d9;
-	font-size: 16px;
-	line-height: 1.6;
-}
-
-.login-form {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	padding: 56px clamp(28px, 6vw, 64px);
-}
-
-.login-form label {
-	margin: 0 0 8px;
-	color: #293b33;
-	font-size: 14px;
-	font-weight: 700;
-}
-
-.login-form input {
-	box-sizing: border-box;
-	width: 100%;
-	min-height: 48px;
-	margin-bottom: 22px;
-	padding: 0 14px;
-	border: 1px solid #cbd7ce;
-	border-radius: 4px;
-	background: #fbfcfa;
-	color: #1b2c26;
-	font: inherit;
-	font-size: 15px;
-}
-
-.login-form input::placeholder {
-	color: #87958c;
-}
-
-.login-form input:focus-visible {
-	outline: 3px solid rgba(112, 158, 78, 0.28);
-	border-color: #467c52;
-}
-
-.login-form button {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	min-height: 50px;
-	margin-top: 4px;
-	padding: 0 18px;
-	border: 0;
-	border-radius: 4px;
-	background: #245c40;
-	color: #fff;
-	cursor: pointer;
-	font: inherit;
-	font-size: 15px;
-	font-weight: 700;
-	transition: background-color 160ms ease, transform 160ms ease;
-}
-
-.login-form button:hover {
-	transform: translateY(-1px);
-	background: #174b34;
-}
-
-.login-form button:focus-visible {
-	outline: 3px solid #9bc76e;
-	outline-offset: 3px;
-}
-
-.login-form button span {
-	font-size: 21px;
-	line-height: 1;
-}
-
-@media (max-width: 640px) {
-	.login-page {
-		min-height: auto;
-		padding: 28px 16px 48px;
-	}
-
-	.login-container {
-		grid-template-columns: 1fr;
-	}
-
-	.login-intro {
-		padding: 32px 28px;
-	}
-
-	.login-kicker {
-		margin-bottom: 16px;
-	}
-
-	.login-intro h1 {
-		font-size: 30px;
-	}
-
-	.login-form {
-		padding: 32px 28px 36px;
-	}
+.app-logo:hover {
+  transform: translateX(10px);
 }

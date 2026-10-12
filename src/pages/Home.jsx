@@ -1,4 +1,5 @@
 import RideBookingForm from "../components/RideBookingForm"
+import './Home.css'
 function Home()
 {
 return (
