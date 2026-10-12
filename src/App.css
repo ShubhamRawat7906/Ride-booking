@@ -22,3 +22,12 @@ body{
 .app-logo:hover {
   transform: translateX(10px);
 }
+.header{
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	padding: 0 32px;
+}
+.header h1{
+	margin:0;
+}

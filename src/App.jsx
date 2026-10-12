@@ -9,11 +9,12 @@ import bike from './assets/bike.png'
 import Login from './components/Login'
 export default function App(){
 return (
-  <div>
-    <h1>Let's Ride</h1>
-    <img src={bike} alt="Bike" width="100" height="100"/>
     <HashRouter>
+    <header className="header">
+    <h1>Let's Ride</h1>
     <Navbar/>
+    </header>
+    <img src={bike} alt="Bike" width="200" height="200"/>
     <Routes>
       <Route path="/" element={<Home/>}/>
        <Route path="/login" element={<Login/>}/>
@@ -22,6 +23,5 @@ return (
       <Route path="/contact" element={<Contact/>}/>
     </Routes>
     </HashRouter>
-  </div>
 )
 }

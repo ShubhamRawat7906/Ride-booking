@@ -1,0 +1,38 @@
+.location-section{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    width:500px;
+}
+.location-section input{
+    width:85%;
+    height:90%;
+    font-size:30px;
+    font-weight:700;
+    padding:0 16px;
+    border:1px solid #ccc;
+    border-radius:10px;
+    outline:none;
+    box-sizing:border-box;
+}
+.location-section input:focus {
+  border-color: #fdc800;
+  box-shadow: 0 0 0 3px rgba(253, 200, 0, 0.3);
+}
+.location-section input::placeholder {
+  color: #888;
+}
+.location-section button{
+    width:40%;
+    height:30%;
+    font-size:30px;
+    font-weight:700;
+    padding: 0 16px;
+    border:1px solid #ccc;
+    border-radius:10px;
+    outline:none;
+    cursor:pointer;
+} 
+.location-section button:hover{
+    background:#f0bc00;
+}
