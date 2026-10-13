@@ -5,7 +5,6 @@ function Navbar() {
   return (
     <header className="navbar">
       <div className="navbar-inner">
-        <Link to="/" className="logo">Let's Ride</Link>
 
         <nav className="nav-links">
           <NavLink to="/" end>Home</NavLink>

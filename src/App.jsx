@@ -10,6 +10,7 @@ export default function App(){
 return (
     <HashRouter>
     <header className="header">
+      <h1>Let's Ride</h1>
     <Navbar/>
     </header>
     <Routes>

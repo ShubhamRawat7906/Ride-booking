@@ -11,7 +11,6 @@ export default function Career(){
       event.preventDefault();
       alert(`Application submitted for ${role}.`);
     }
-
     return (
         <div className="career-form">
         <h1>Apply for job</h1>
